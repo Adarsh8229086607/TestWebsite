@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>chipi Technologies - Job Application Form</title>
+    </head>
+    <body style="background-color: rgb(113, 118, 72);">
+        <h1 align="center">
+        <img src="Images/images (3).jpg" alt="Chipi Logo" width="60">
+        </h1>
+        <h3 align="center">Chipi Technologies - Job Application Form</h3>
+        
+        <form>
+            <fieldset>
+                <legend><b>Personal Information</b></legend>
+                <label for="name"><strong>Name:</strong></label>
+                <br>
+                <input tabindex="text" id="name" name="Name" required>
+                <br> 
+                <label for="email"><strong>Email:</strong></label>
+                <br>
+                <input type="email" id="email" name="EmailID" required>
+                <br>
+                <label for="phone"><strong>Phone:</strong></label>
+                <br>
+                <input type="tel" id="phone" name="mobile" pattern="[6-9][0-9]{9}" required>
+                <br>                                       
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Job Details</b></legend>
+                <label for="position"><strong>Position Applied For:</strong></label>
+                <br>
+                <select id="position" name="PositionApplied" required>
+                    <option value="">Select Position</option>
+                    <option value="developer">Software Developer</option>
+                    <option value="designer">Graphic Designer</option>
+                    <option value="manager">Project Manager</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <label for="gender"><strong>Gender:</strong></label>
+                <br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" required>
+                <label for="other">Other</label>
+                <br>
+                <label><strong>Skills:</strong></label>
+                <br>
+                <input type="checkbox" id="html" name="skill" value="html">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="css" name="skill" value="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" id="javascript" name="skill" value="javascript">
+                <label for="javascript">Java Script</label>
+                <br>
+                <label for="resume"><strong>Upload Resume:</strong></label><br>
+                <input type="file" id="resume" name="RESUME" required>
+                <br>
+                <input type="button" value="View" id="resume">
+            </fieldset>
+            <input type="submit" value="Apply">
+            <input type="reset" value="Reset Form">
+        </form>
+    </body>
+</html>
