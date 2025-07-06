@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Tag Example</title>
+    </head>
+    <body>
+        <h2>Form Tag Example</h2>
+
+        <form> 
+            <!-- The form tag is used to collect user input -->
+             <!--Text Box and Sumbit and Reset Button-->
+            <fieldset>
+            <legend><b>Text Box and Button Example</b></legend>
+            <label for = "fName"><b>First Name</b></label>
+            <br>
+            <input type = "text" id = "fName" name = "FirstName" placeholder="Enter the first name..." required>
+            <br>
+            <label for = "lName"><b>Last Name</b></label>
+            <br>
+            <input type = "text" id = "lName" name = "LastName" placeholder="Enter the last name...">
+            <br><br>
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Cancle">
+            </fieldset>
+       
+            <fieldset>
+            <!-- Radio Button and Checkbox -->
+            <!--Name attribute is use to create a group og radio buttons-->
+            <!--Radio Button-->
+            <legend><b>Radio Button and Checkbox Example</b></legend>
+            <p><b>Select the course you are interested in</b></p>
+            <input type = "radio" id = "GUI" name = "TechnologyName" value = "GUI">
+            <label for = "CProgramming"><b>Graphical User Interface</b></label>
+            <br>
+            <input type = "radio" id = "Backend" name = "TechnologyName" value = "Backend">
+            <label for = "JavaProgramming"><b>Backend Programming</b></label>
+            <br>
+            <input type = "radio" id = "ML" name = "TechnologyName" value = "ML">
+            <label for = "PythonProgramming"><b>Machine Learning</b></label>
+            <br><br>
+            <!--Checkbox-->
+            <input type = "checkbox" id = "C" name = "CProgramming" value = "C">
+            <label for = "C"><b>C Programming</b></label>
+            <br>
+            <input type = "checkbox" id = "Java" name = "JavaProgramming" value = "Java">
+            <label for = "Java"><b>Java Programming</b></label> 
+            <br>
+            <input type = "checkbox" id = "Python" name = "PythonProgramming" value = "Python">
+            <label for = "Python"><b>Python Programming</b></label> 
+            <br>
+            <input type = "checkbox" id = "JavaScript" name = "JavaScriptProgramming" value = "JavaScript">
+            <label for = "JavaScript"><b>JavaScript Programming</b></label>
+            <br>
+            <input type = "checkbox" id = "CPlusPlus" name = "CPlusPlusProgramming" value = "CPlusPlus">
+            <label for = "CPlusPlus"><b>C++</b></label>
+            </fieldset>
+
+            <fieldset>
+            <!--Input type Colour-->
+            <legend><b>Input Type Colour Example</b></legend>
+            <label for = "favColor"><b>Choose your favorite color:</b></label>
+            <br>
+            <input type = "color" id = "favColor" name = "favoriteColor" value = "#ff0000">
+            </fieldset>
+
+            <fieldset>
+            <!--Input Type Password-->
+            <legend><b>Input Type Password Example</b></legend>
+            <label for = "password"><b>Password</b></label>
+            <br>
+            <input type = "password" id = "password" name = "userPassword" placeholder="Enter your password...">
+            </fieldset>
+
+            <fieldset>
+                <!--Input Type Date-->
+                <legend><b>Input Type Date Example</b></legend>
+                <label for = "dateOfBirth"><b>Date of Birth</b></label> 
+                <br>
+                <input type = "date" id = "dateOfBirth" name = "dob" min="1990-01-01" max="2023-12-31">
+            </fieldset>
+
+            <fieldset>
+                <!--Input Type Email-->
+                <legend><b>Input Type Email Example</b></legend>
+                <label for = "email"><b>Email</b></label>
+                <br>
+                <input type = "email" id = "email" name = "userEmail" placeholder="Enter your email..." required>
+            </fieldset>
+
+            <fieldset>
+                <!--Min - Max Input Type Number-->
+                <legend><b>Input Type Number Example</b></legend>
+                <label for = "age"><b>Age</b></label>
+                <br>
+                <input type = "number" id = "age" name = "userAge" min="1" max="120" placeholder="Enter your age..." required>
+            </fieldset>
+
+            <fieldset>
+                <!--Input Type Range-->
+                <legend><b>Input Type Range Example</b></legend>
+                <label for = "volume"><b>Volume Control</b></label>
+                <br>
+                <input type = "range" id = "volume" name = "volumeControl" min="0" max="100" value="50">
+            </fieldset>
+            <fieldset>
+                <!--Input Type File-->
+                <legend><b>Input Type File Example</b></legend>
+                <label for = "fileUpload"><b>Upload a file:</b></label>
+                <br>
+                <input type = "file" id = "fileUpload" name = "fileToUpload" accept=".jpg, .jpeg, .png, .pdf">
+            </fieldset>
+
+            <fieldset>
+                <!--Textarea-->
+                <legend><b>Textarea Example</b></legend>
+                <label for = "comments"><b>Comments:</b></label>
+                <br>
+                <textarea id = "comments" name = "userComments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+            </fieldset>
+
+            <fieldset>
+                <!--Select Dropdown-->
+                <legend><b>Select Dropdown Example</b></legend>
+                <label for = "country"><b>Select your country:</b></label>
+                <br>
+                <select id = "country" name = "userCountry">
+                    <option value="USA">United States</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="Australia">Australia</option>
+                    <option value="India">India</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <!--Detail, Summry, and ul li-->
+                <legend><b>Details and Summary Example</b></legend>
+                <details>
+                    <summary><b>More Information</b></summary>
+                    <p>This section contains additional information that can be expanded or collapsed.</p>
+                    <ul>
+                        <li>Detail 1</li>
+                        <li>Detail 2</li>
+                        <li>Detail 3</li>
+                    </ul>               
+            </fieldset>
+        </form>
+    </body>
+</html>
