@@ -4,6 +4,9 @@
         <title>Form Tag Example</title>
     </head>
     <body>
+         <p align="center">
+            <a href="/TestWebsite/index.html">Home page</a>
+        </p>
         <h2>Form Tag Example</h2>
 
         <form> 
@@ -115,7 +118,7 @@
                 <legend><b>Textarea Example</b></legend>
                 <label for = "comments"><b>Comments:</b></label>
                 <br>
-                <textarea id = "comments" name = "userComments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+                <textarea id = "comments" name = "userComments" rows="8" cols="50" placeholder="Enter your comments here..."></textarea>
             </fieldset>
 
             <fieldset>
@@ -143,6 +146,44 @@
                         <li>Detail 2</li>
                         <li>Detail 3</li>
                     </ul>               
+            </fieldset>
+            <fieldset>
+                <!--Option Value-->
+                <legend><b>Option Value Example</b></legend>
+                <Lebel for = "Quittity"><b>Quitnity</b></Lebel>
+                <br>
+                <select id = "quantity" name = "productQuantity" multiple size="5">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="4">4KG</option>
+                    <option value="5">5KG</option>
+                    <option value="6">6KG</option>
+                    <option value="7">7KG</option>
+                    <option value="8">8KG</option>
+                    <option value="9">9KG</option>
+            </fieldset>
+
+            <fieldset>
+                <!--Hidden Input-->
+                <legend><b>Hidden Input Example</b></legend>
+                <input type="hidden" id="userId" name="userId" value="12345">
+                <p>This is a hidden input field. It will not be visible to the user but will be submitted with the form.</p>
+            </fieldset>
+
+            <fieldset>
+                <!--Input Type Iist & Datalist-->
+                <legend><b>Input Type List and Datalist Example</b></legend>
+                <label for="city"><b>Browsers</b></label>
+                <br>
+                <input type="Browsers" id = "browser" name="browser">
+                <datalist id="Browsers">
+                    <option value="Chrome">
+                    <option value="Firefox">
+                    <option value="Safari">
+                    <option value="Edge">
+                    <option value="Opera">
+               </datalist>
             </fieldset>
         </form>
     </body>
