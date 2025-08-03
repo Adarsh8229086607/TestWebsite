@@ -10,12 +10,18 @@ body {
   display: flex;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+  list-style: none;
+  padding-left: 0;
+
+
+
 }
 
 .sidebar {
   width: 30%;
   background-color: #222;
-  color: white;
+  color: rgb(148, 129, 129);
   padding: 20px;
 }
 
@@ -27,7 +33,7 @@ body {
 .sidebar img {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
+  border-radius: 60%;
   margin-bottom: 20px;
 }
 
@@ -63,4 +69,13 @@ body {
 .main a {
   color: #007bff;
   text-decoration: none;
+}
+
+ul {
+      list-style: none;
+      padding-left: 0;
+}
+li::before {
+  content: "✔️";
+  margin-right: 10px;
 }

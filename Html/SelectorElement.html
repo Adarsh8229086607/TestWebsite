@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1 id="example">We are using ID</h1>
+    <h1 id="whatiscss">What is CSS?</h1>
+    <p>CSS stands for cascading style sheets</p>
+    <h2>What is selectors in CSS?</h2>
+    <p>Selector points to the HTML element you want to style.</p>
+    <h3 class="mybackgroundcolor forgroundcolor"><span class="satyam">E</span>
+    <p>This is a simple example of using the selector element in HTML.</p>
+    
+    <div class="container">
+        <p class="text">This is a paragraph inside a container.</p>
+        <p id="unique">This paragraph has a unique ID.</p>
+    </div>
+
+    <script>
+        // Example of selecting elements
+        const container = document.querySelector('.container');
+        const text = document.querySelector('.text');
+        const unique = document.getElementById('unique');
+
+        console.log(container, text, unique);
+    </script>
