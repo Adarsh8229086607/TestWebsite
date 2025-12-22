@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Radio And CheckBox Button Example</title>
+    </head>
+    <body>
+        <p><b>Select the course</b> you're interested in.</p>
+        <p>Name attributes used to create a group of radio buttons</p>
+        <p>The radio with the same name will be considerd as numbers of the group.</p>
+        <p>Value attributes is used to set the value of the radio button.</p>
+<form>
+    <input type="radio" id="html" name="course" value="html" required>
+    <label for="html"><b>HTML</b></label>
+    <br>
+    <input type="radio" id="css" name="course" value="css" required>
+    <label for="css"><b>CSS</b></label>
+    <br>
+    <input type="radio" id="javaScript" name="course" value="javaScript" required>
+    <label for="javaScript"><b>JavaScript</b></label>
+    <br><br>
+
+    <input type="checkbox" id="CCourse" name="CCourse" value="CCourse">
+    <label for="CCourse"><b>C Programming</b></label>
+    <br>
+    <input type="checkbox" id="cPlusPlus" name="cPlusPlus" value="cPlusPlus">
+    <label for="cPlusPlus"><b>C++ Programming</b></label>
+    <br>
+    <input type="checkbox" id="java" name="java" value="java">
+    <label for="java"><b>Java Programming</b></label>
+    <br>
+    <input type="checkbox" id="python" name="python" value="python">
+    <label for="python"><b>Python Programming</b></label>
+    <br><br>
+
+    <input type="button" value="Proceed" id="proceedButton" onclick="alert('Proceeding with your selection')">
+    <input type="button" value="Cancel" id="cancelButton" onclick="alert('Cancelling your selection')">
+    <input type="button" value="Reset" id="resetButton" onclick="alert('Resetting your selection')">
+    <input type="button" value="Submit" id="submitButton" onclick="alert('Submitting your selection')">
+</form>
+    </body>
+</html>

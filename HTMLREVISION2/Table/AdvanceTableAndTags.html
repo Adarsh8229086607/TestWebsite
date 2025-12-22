@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advance Table</title>
+    </head>
+    <body>
+        <p><a href="AllPages.html" target="_blank">Home Page</a></p>            
+        <br>
+        <h3><code>&lt;thead&gt;</code> - Defines the header section of a table that usually contains column titles.</h3>
+
+        <h3><code>&lt;tbody&gt;</code> - Defines the main body section of a table that contains the actual data rows.</h3>  
+
+        <h3><code>&lt;tfoot&gt;</code> - Defines the footer section of a table that typically contains summary information or totals.</h3>
+
+        <h3><code>&lt;caption&gt;</code> - Provides a title or caption for the table, usually displayed above or below the table.</h3>
+
+
+        <table border="5" width="50%">
+            <caption><strong>Student Course Details</strong></caption>
+
+            <colgrup>
+            <col span="1" style="background-color:rgb(156, 205, 222)">
+            <col span="1" style="background-color:rgb(173, 231, 173)">
+            </colgrup>
+
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Current Topic</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>David</td>
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>Jhon</td>
+                    <td>CSS</td>
+                </tr>
+                <tr>
+                    <td>Smith</td>
+                    <td>JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Peter</td>
+                    <td>Bootstrap</td>
+                </tr>
+                <tr>
+                    <td>James</td>
+                    <td>ReactJS</td>
+                </tr>
+            </tbody> 
+            <tfoot>
+                <tr>
+                    <td colspan="2" style="text-align: center; background-color: antiquewhite;"><em>End of Student Course Details</em></td>
+                </tr>
+            </tfoot>        
+        </table>
+    </body>
+</html>
