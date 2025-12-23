@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fieldset & Legend Tags</title>
+    </head>
+    <body>
+        <a href="/TestWebsite/HTMLREVISION2/AllPages.html" target="_blank">Home Page</a>
+        <dl>
+            <dt><strong>&lt;fieldset&gt;</strong>:</dt>
+            <dd>Use to group several controls as well as labels (&lt;lable&gt;) within a web form.</dd>
+            <dt><strong>&lt;legend&gt;</strong>:</dt>
+            <dd>Represents a caption for the content of its parent &lt;fieldset&gt;.</dd>
+        </dl>
+
+        <form>
+            <fieldset>
+                <legend><b>Personal Details</b></legend>
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="dob">DOB:</label><br>
+                <input type="date" id="dob" name="dob" min="1923-01-01" max="2007-12-31" required>
+                <br>
+                
+                <lable for="gender">Gender:</lable><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Course Details</b></legend>
+                <label for="course">Course Name:</label><br>
+                <select id="course" name="course" required>
+                    <option value="Java">Java Programming</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">Css</option>
+                    <option value="Python">Python Programming</option>
+                    <option value="none" selected>None</option>
+                </select>
+                    <br>
+                <label for="batch">Prefered Batch Timing:</label>
+                <input tabindex="text" id="batch" name="batch" placeholder="e.g., Weekend Morning...."><br>
+            </fieldset>
+            <fieldset>
+                <legend><b>Buttons</b></legend>
+                <input type="button" value="Sumbit">
+                <input type="button" value="Reset">
+            </fieldset>
+        </form>
+    </body>
+</html>

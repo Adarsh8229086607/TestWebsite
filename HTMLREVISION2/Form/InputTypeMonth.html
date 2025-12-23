@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input Type Month Example</title>
+    </head>
+    <body>
+                <p><a href="/TestWebsite/HTMLREVISION2/AllPages.html" target="_blank" >Home Page</a></p>   
+
+        <dl>
+            <dt>Input Type Month: </dt>
+            <dd>Input Elements of type Month create input fields that the user enter a month and year allowing a month and year to be easily entered. The value is a string whose value in the formet YYYY-MM, where YYYY is the four-digit and MM is the month number.</dd>
+        </dl>
+        <form>
+            <label for="m1">1. Basic Month Input: </label><br>
+            <input type="month" id="m1" name="m1"><br><br>     
+
+            <label for="m2">2. Alloed Month Jan-2023 - Dec-2025: </label><br>
+            <input type="month" id="m2" name="m2" min="2023-01" max="2025-12"><br><br> 
+
+            <label for="m3">3. Default Value (Pre-Filled): </label><br>
+            <input type="month" id="m3" name="m3" value="2024-08"><br><br> 
+
+            <label for="m4">4. Required Month (Cannot Sumbit Empty): </label><br>
+            <input type="month" id="m4" name="m4" required><br><br> 
+
+            <label for="m5">5.Read - Only (Cannot - Edit): </label><br>
+            <input type="month" id="m5" name="m5" value="2023-06" readonly><br><br> 
+
+            <label for="m6">6. Disabled Month: </label><br>
+            <input type="month" id="m6" name="m6" value="2025-12" disabled><br><br> 
+
+            <input type="submit" value="Sumbit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>

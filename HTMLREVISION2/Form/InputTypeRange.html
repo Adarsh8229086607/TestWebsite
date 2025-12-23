@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input Type Range</title>
+    </head>
+    <body>
+                <p><a href="/TestWebsite/HTMLREVISION2/AllPages.html" target="_blank" >Home Page</a></p>   
+
+        <dl>
+            <dt>Input Type Range: </dt>
+            <dd>Input Element of type range let the user specify a numeric value which must be no less then given value, no more then another given value.</dd>
+        </dl>
+
+        <form>
+            <label for="range1">1. Basic Slider(0 to 100): </label><br>
+            <input type="range" id="range1" name="range1" min="0" max="100"><br><br>
+
+            <label for="range2">2. Pre - Filled Value(50%):</label><br>
+            <input type="range" id="range2" name="range2" min="0" max="100" value="50"><br><br>
+
+            <label for="range3">3. Step size = 10 (Increase by 10%): </label><br>
+            <input type="range" id="range3" name="range3" min="0" max="100" step="10"><br><br>
+
+            <label for="range4">4. Required:</label><br>
+            <input type="range" id="range4" name="range4" min="0" max="100" required><br><br>
+            
+            <label for="range5">5. Read - Only:</label><br>
+            <input type="range" id="range5" name="range5" min="0" max="100" value="20" readonly><br><br>
+
+            <label for="range6">6. Disabled:</label><br>
+            <input type="range" id="range6" name="range6" min="0" max="100" value="70" disabled><br><br>
+
+            <input type="submit" value="Sumbit">
+            <input type="reset" value="Reset">
+            
+        </form>
+    </body>
+</html>
