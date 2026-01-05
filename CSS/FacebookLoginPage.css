@@ -1,0 +1,119 @@
+.header
+{
+    background-color: #ffffff;
+    color: rgb(24, 119, 242);
+    padding: 1px;
+    text-align: center;
+    font-family: 'Klavika', sans-serif;
+}
+
+.main-header
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+
+.login-container {
+    max-width: 400px;
+    min-width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+    word-wrap: none;
+}
+
+
+.header-group
+{
+    margin: 20px;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 16px;   
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+}
+
+
+.form-group { 
+    margin-top: 10px; 
+    text-align: center;
+}
+
+
+
+
+input[type="text"]{
+  width: 90%;
+  height: 28px;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ebe8e8;
+  border-radius: 6px;
+  font-size: 16px;
+  
+}
+
+
+input[type="password"] {
+  width: 90%;
+  height: 28px;
+  padding: 12px;
+  margin-bottom: 0px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.successful-message {
+  color: green;
+  font-weight: bold;
+}
+
+button{
+  width: 97%;
+  height: 48px;
+  background-color: #1877f2;
+  color: white;
+  padding: 12px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  text-align: center;
+}
+
+button:hover { 
+  background: #1d4ed8;
+ }
+
+.single-line a {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #1877f2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.forget-password-signup a{
+  text-decoration: none;
+}
+
+.forget-password-signup a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook</title>
+  <link rel="stylesheet" href="/TestWebsite/CSS/FacebookLoginPage.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1 class="main-header">facebook</h1>
+  </div>
+
+  <div class="login-container">
+    <h2 class="header-group">Log in to Facebook</h2>
+    <form>
+      <div class="form-group">
+        <input type="text" id="emailMobile" name="text" placeholder="Email address or phone number" required>
+        <br>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <br>
+
+        <p class="error-message" id="error"></p>
+        <p class="successful-message" id="successful"></p>
+
+        <button id="login" type="submit" >Log in</button>
+      </div>
+    </form>
+
+    <script src="/TestWebsite/JSIntership/FacebookLogin.js"></script>
+
+    <div class="forget-password-signup">
+      <p class="single-line">
+        <a href="" target="_blank" class="forgot-password">Forgotten account?</a>
+        ·&nbsp;
+        <a href="/TestWebsite/HTMLREVISION2/Form/FacebookSingUp.html" target="_blank" class="create-account">Sign up for Facebook</a>
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+.readonly-demo:read-only
+{
+    background: red;
+    color: rgba(201, 201, 34, 0.921);
+    border: 2px solid blueviolet;
+    font-style: italic;
+}
+
+.readwrite-demo:read-write
+{
+    background: lightgreen;
+    color: rgb(0, 0, 255);
+    border: 2px dashed orange;
+    font-weight: bold;
+}
+
+.placeholder-demo:placeholder-shown
+{
+    background: rgb(232, 232, 165);
+    color: rgb(255, 0, 0);
+    border: 2px solid green;
+    font-style: italic;
+}
+
+.no-placeholder-demo
+{
+    background: lightblue;
+    color: rgb(0, 128, 0);
+    border: 2px solid rgb(128, 0, 0);
+    font-weight: bold;
+}

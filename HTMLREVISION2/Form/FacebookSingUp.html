@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="/TestWebsite/CSS/SingUp.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1 class="main-header">facebook</h1>
+    </div>
+
+    <div class="singup-container">
+
+      <div class="titlt">
+        <h1 class="hader-group">Create a new account</h1>
+        <p class="sub-title">It's quick and easy.</p>
+      </div>
+        <form>
+            <div class="form-group">
+             <div class="name-surname"> 
+                <input type="text" id="firstname" name="firstname" placeholder="First name" required>
+                <input type="text" id="lastname" name="lastname" placeholder="Surname" required>
+              </div>
+
+                <div class="dob-lable-group">
+                  <label for="birthday" class="dob-lable">Date of birth</label><br>
+                </div>
+                <div class="dob-input-group">
+                  <input type="date" id="birthday" class="date" name="birthday" required>
+                </div>
+
+                
+                <div class="gender-lable-group">
+                  <label for="gender">Gender</label><br>
+                </div>
+                <div class="gender">
+                  <div class="gender-female">
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label  for="female">Female</label>
+                  </div>
+                  <div class="gender-male"> 
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                  </div>
+                  <div class="gender-custom">
+                    <input type="radio" id="custom" name="gender" value="custom" required>
+                    <label for="custom">Custom</label>
+                  </div>
+                </div>
+
+                <div class="mobile-email">
+                  <input type="text" id="mobile-email" name="mobile-email" placeholder="Mobile number or email address" required>
+                </div>
+
+                <div class="new-password">
+                  <input type="password" id="password" name="new-password" placeholder="New password" required>
+                </div>
+             </div>
+        </form>
+
+                <div class="policy-text">
+                  <p>
+                    People who use our service may have uploaded your contact information to
+                  </p>
+                  <p>
+                    Facebook. <a href="https://www.facebook.com/help/637205020878504" target="_blank" class="learn-more-link">Learn more.</a>
+                  </p>
+                  <p>
+                    By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update" target="_blank" class="policy-link">Terms</a>, <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0" target="_blank" class="policy-link">Privacy Policy</a> and <a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0" target="_blank" class="policy-link">Cookies Policy</a>.
+                  </p>
+                  <p>You may receive SMS notifications from us and can opt out at any time.</p>
+                </div>
+
+                <div class="message1">
+                  <p id="error"></p>
+                </div>
+                <div class="message2">
+                  <p id="successful"></p>
+                </div>
+
+                <button id="singup" onclick="" type="submit">Sign Up</button>
+               
+
+                <p class="login-page-link">
+                  <a href="/TestWebsite/HTMLREVISION2/Form/FacebookLoginPage.html" target="_blank" class="login-link">Already have an account?</a>
+                </p> 
+                
+                <script src="/TestWebsite/JSIntership/FacebookSingup.js"></script>
+      </div>
+    </body>
+</html>
