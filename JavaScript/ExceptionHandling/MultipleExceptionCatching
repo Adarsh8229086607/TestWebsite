@@ -1,0 +1,22 @@
+// Example: Catching multiple exceptions using OR operator
+function validateUserInput(age, email) {
+  if (age < 0 || age > 150) {
+    throw new Error("Invalid Age");
+  }
+  if (!email.includes("@")) {
+    throw new Error("Invalid Email");
+  }
+  return { age, email };
+}
+
+try {
+  const user = validateUserInput(5, "invalidemail");
+} catch (e) {
+  if (e.message === "Invalid Age")
+  {
+    console.log("Validation failed: Value of age is wrong. The value should be between 0 and 150", e.message);
+  } 
+  if(e.message === "Invalid Email") {
+    console.log("Validation failed: Email should contain '@' symbol.", e.message);
+  }
+}
